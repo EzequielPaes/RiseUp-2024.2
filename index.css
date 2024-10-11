@@ -1,1 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #164095;
+    background-image: url(assets/Design\ sem\ nome\ \(3\).png);
+}
+
+.tela-login{
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    height: 400px;
+
+}
+
+#Login{
+
+    background-color: #F0F0F0;
+    padding: 15px;
+    letter-spacing: 1px;
+    outline-color: #729DF5;
+    font-size: 15px;
+    border-color: #729DF5;
+    border-radius: 5px;
+    font-family:sans-serif;
+    text-align: left;
+    width: 400px;
+}
+
+#Login::placeholder{
+    color: #3156A0;
+}
+
+#Senha{
+    background-color: #F0F0F0;
+    padding: 15px;
+    letter-spacing: 1px;
+    outline: none;
+    font-size: 15px;
+    border-color: #729DF5;
+    border-radius: 5px;
+    font-family:sans-serif;
+    text-align: left;
+    width: 400px;
+}
+#Senha::placeholder{
+    color: #3156A0;
+}
+
+button{
+    background-color: #164095;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #37589C;
+}
+
+.contato {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email img {
+   margin-right: 10px;
+   margin-left: 37px;
+   position: relative; top: -3px;
+}
+
+#email {
+    display: flex;
+    margin-top: 10px;
+}
+
+#numero {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+#numero img {
+    display: block;
+    margin-right: 10px;
+    position: relative; top: -3px;
+}
+
+.nav-bar {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+#logo {
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+#sessao {
+    text-align: center;
+    background-color: #043087;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px, 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+#sessao:hover {
+    background-color: white;
+    color: #043087;
+}
+
+#contate {
+    text-align: center;
+    background-color: white;
+    color: #164095;
+    border: none;
+    border-radius: 25px;
+    padding: 15px, 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#contate:hover {
+    background-color: #043087;
+    color: white;
+}
 

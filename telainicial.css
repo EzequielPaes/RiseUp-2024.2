@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
+    display: flex; /* Usa Flexbox para o layout do corpo */
+    background-color: #164095; /* Define a cor de fundo da página */
+}
+
+/* Estiliza a barra lateral (sidebar) */
+.sidebar {
+    display: flex; /* Usa Flexbox para layout interno */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: min-content; /* Define a largura mínima necessária para o conteúdo */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    position: fixed; /* Fixa o menu na tela, independentemente do scroll */
+    background-color: #ffffff; /* Define a cor de fundo da barra lateral */
+    color: rgb(0, 0, 0); /* Define a cor do texto */
+    padding: 22px; /* Adiciona espaçamento interno ao redor do conteúdo */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao lado da barra lateral para destaque */
+}
+
+/* Estiliza a imagem de login dentro da barra lateral */
+.sidebar h2 {
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o título */
+    margin-top: 2rem; /* Adiciona uma margem superior */
+}
+
+/* Estiliza a lista de itens na barra lateral */
+.sidebar ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    display: flex; /* Usa Flexbox para layout interno */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: left; /* Centraliza os itens verticalmente */
+    align-items: left; /* Centraliza os itens horizontalmente */
+    height: 15rem; /* Define a altura da lista */
+}
+
+/* Estiliza cada item da lista na barra lateral */
+.sidebar ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0; /* Adiciona margem vertical entre os itens */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o item */
+}
+
+/* Estiliza as imagens dentro dos itens da lista */
+.sidebar ul li {
+    transition: transform 0.6s ease; /* Adiciona uma transição suave ao transformar a imagem */
+}
+
+/* Adiciona efeito de zoom nas imagens ao passar o mouse sobre elas */
+.sidebar ul li:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem para 120% */
+}
+
+.sidebar li p {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.sidebar li img {
+    display: flex;
+    margin-top: 0.7rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.2rem; /* Margem esquerda para fazer espaço para a barra lateral */
+    flex: 1; /* Permite que o contêiner ocupe o espaço restante */
+    color: #fff; /* Define a cor do texto */
+    background-color: #123A8C;
+    padding-left: 35rem;
+    padding-right: 21.7rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: left;
+    margin-left: -25rem;
+    text-align: left;
+}
+
+.home h3 {
+    padding-left: 10px;
+    margin-left: 1rem;
+    display: block;
+}
+/* Estiliza o campo de entrada dentro da seção de entrada */
+.content label input {
+    padding: 8px; /* Adiciona espaçamento interno no input */
+    width: 25rem; /* Define a largura do campo do input*/
+    margin-top: 0.7rem;
+    border-radius: 5rem; /* Arredonda os cantos do input */
+    border: none; /* Remove a borda padrão */
+}
+
+/* Estiliza o contêiner principal da seção de entrada */
+.input-main {
+    margin-right: 19rem;
+    margin-left: 19rem; /* Margem à esquerda para espaçamento */
+}
+
+
+
+/*tabela*/
+
+.table-container {
+    margin: 200px;
+    background-color: #f8f8f8;
+    padding: 50px;
+    border-radius: 8px;
+    width: 1000px;
+
+}
+
+.table-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #003366;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+table td {
+    background-color: #fff;
+    font-size: 1em;
+}
+
+.id-column {
+    width: 10%;
+}
+
+.req-column, .title-column {
+    width: 45%;
+}
+
+.titulo-link {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titulo-link:hover {
+    text-decoration: underline;
+}
